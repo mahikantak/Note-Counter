@@ -1,0 +1,33 @@
+table{
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border:1px solid grey;
+    padding: 5px 10px;
+}
+button{
+ font-weight: 700;
+ color:aliceblue;
+ padding: 7px;
+ margin-top: 20px;
+ background-color: #2f81c1;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ cursor: pointer;
+}
+input[type=number]{
+ height: 17px; padding: 5px;
+}
+p{
+    text-align: center;
+}
+.container{
+ text-align: center;
+ width: 400px;
+ margin: auto;
+ margin-top:50px;
+}

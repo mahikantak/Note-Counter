@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="css/currency-counter.css">
+       </head>
+        <body>
+            <div class="container">
+                <div> Input Currency: <input type="number" id="currency" name="currency" required> </div>
+                <button type="button" onclick="countNotes()" id="currency-counter">Calculate Number of notes</button>
+                <h3 id='notes'></h3>
+                <table>
+                   <thead>
+                      <th>Currency amount</th>
+                      <th>Number of notes</th>
+                   </thead>
+                   <tbody id="result"></tbody>
+                </table>
+                <h4 class="totalsum"></h4>
+             </div>
+            <script src="js/jquery-min.js"></script>
+            <script src="js/currency-counter.js"></script>
+        </body>
+    </html>
+</html>
